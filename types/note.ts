@@ -14,3 +14,9 @@ export const TAGS = [
   "Shopping",
   "Todo",
 ] as const;
+
+export interface CreateNote {
+  title: string;
+  content: string;
+  tag: string;
+}
